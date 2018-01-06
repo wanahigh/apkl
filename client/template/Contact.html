@@ -1,0 +1,52 @@
+<template name="contact">
+    <div class="row">
+        <form class="col s12" method="post" action="/FLC">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input  required="required"  id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input required="required"  id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input required="required" id="message" type="text" class="validate">
+                    <label for="password">message</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input required="required"  id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+                        <button class="btn waves-effect waves-light pulse" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+
+    <script>// Server: Define a method that the client can call.
+    Meteor.methods({
+        sendEmail(to, from, subject, text) {
+            // Make sure that all arguments are strings.
+            check([to, from, subject, text], [String]);
+            // Let other method calls from the same client start running, without
+            // waiting for the email sending to complete.
+            this.unblock();
+            Email.send({ to, from, subject, text });
+        }
+    });
+    // Client: Asynchronously send an email.
+    Meteor.call(
+        'sendEmail',
+        'Alice : fabienruault@gmail.com ',
+        'bob@example.com',
+        'Hello from Meteor!',
+        'This is a test of Email.send.'
+    );</script>
+</template>

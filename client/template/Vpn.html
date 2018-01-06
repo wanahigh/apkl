@@ -1,0 +1,61 @@
+<template name="VPN">
+    <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-fixed-item center">
+            <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Toast</button>
+            <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+                <div class="mdl-snackbar__text"></div>
+                <button class="mdl-snackbar__action" type="button"></button>
+            </div>
+            <script>
+                (function() {
+                    'use strict';
+                    window['counter'] = 0;
+                    var snackbarContainer = document.querySelector('#demo-toast-example');
+                    var showToastButton = document.querySelector('#demo-show-toast');
+                    showToastButton.addEventListener('click', function() {
+                        'use strict';
+                        var data = {message: "Définition du VPN. Le terme VPN (Virtual Private Network) ou réseau privé virtuel, est devenu un terme courant dans l\'informatique d\'entreprise et le domaine des réseaux. Néanmoins, beaucoup de petites entreprises ont du mal à comprendre le concept et les bénéfices que cela peuvent leur apporter.',">Hover me!</a>
+            + ++counter};
+                        snackbarContainer.MaterialSnackbar.showSnackbar(data);
+                    });
+                }());
+                </script>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+            <h2>La sphere Numerique</h2>
+            <img src="programming-world-map-on.jpg" alt="">
+            <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+            <h2>Methode d'encryption des requetes I/O</h2>
+            <img src="VPN-Featured-Image.png" alt="">
+            <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+            <h2>Utilisateur final apparent</h2>
+            <img src="img_how_vpn_works.png" alt="">
+            <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+            <h2>Algorythmes de chiffrements</h2>
+            <img src="pace-oregon-state-php-mysql-programming-code-web-design.jpg" alt="">
+            <p class="white-text">This is your fourth panel</p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.tooltipped').tooltip({delay: 50});
+        });
+
+
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+        $('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+
+
+
+
+
+</template>

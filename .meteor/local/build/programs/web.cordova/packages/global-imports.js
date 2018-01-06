@@ -1,0 +1,47 @@
+/* Imports for global scope */
+
+Mongo = Package.mongo.Mongo;
+ReactiveVar = Package['reactive-var'].ReactiveVar;
+Tracker = Package.tracker.Tracker;
+Deps = Package.tracker.Deps;
+Router = Package['iron:router'].Router;
+RouteController = Package['iron:router'].RouteController;
+MDl = Package['zodiase:mdl'].MDl;
+$ = Package.jquery.$;
+jQuery = Package.jquery.jQuery;
+Materialize = Package['materialize:materialize'].Materialize;
+_ = Package.underscore._;
+check = Package.check.check;
+Match = Package.check.Match;
+Session = Package.session.Session;
+Blaze = Package.ui.Blaze;
+UI = Package.ui.UI;
+Handlebars = Package.ui.Handlebars;
+Model = Package['channikhabra:stupid-models'].Model;
+Google = Package['google-oauth'].Google;
+AlgoliaSearch = Package['acemtp:algolia'].AlgoliaSearch;
+ReactiveDict = Package['reactive-dict'].ReactiveDict;
+Meteor = Package.meteor.Meteor;
+global = Package.meteor.global;
+meteorEnv = Package.meteor.meteorEnv;
+WebApp = Package.webapp.WebApp;
+DDP = Package['ddp-client'].DDP;
+LaunchScreen = Package['launch-screen'].LaunchScreen;
+Spacebars = Package.spacebars.Spacebars;
+Template = Package['templating-runtime'].Template;
+meteorInstall = Package.modules.meteorInstall;
+meteorBabelHelpers = Package['babel-runtime'].meteorBabelHelpers;
+Promise = Package.promise.Promise;
+Iron = Package['iron:core'].Iron;
+Accounts = Package['accounts-base'].Accounts;
+Github = Package['github-oauth'].Github;
+Facebook = Package['facebook-oauth'].Facebook;
+AccountsTemplates = Package['useraccounts:core'].AccountsTemplates;
+HTML = Package.htmljs.HTML;
+Autoupdate = Package.autoupdate.Autoupdate;
+Reload = Package.reload.Reload;
+Symbol = Package['ecmascript-runtime-client'].Symbol;
+Map = Package['ecmascript-runtime-client'].Map;
+Set = Package['ecmascript-runtime-client'].Set;
+T9n = Package['softwarerero:accounts-t9n'].T9n;
+

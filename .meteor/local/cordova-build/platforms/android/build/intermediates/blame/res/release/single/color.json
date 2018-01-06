@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/akatosh/WebstormProjects/Pro_xy/.meteor/local/cordova-build/platforms/android/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/akatosh/WebstormProjects/Pro_xy/.meteor/local/cordova-build/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/akatosh/WebstormProjects/Pro_xy/.meteor/local/cordova-build/platforms/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/akatosh/WebstormProjects/Pro_xy/.meteor/local/cordova-build/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/akatosh/WebstormProjects/Pro_xy/.meteor/local/cordova-build/platforms/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/akatosh/WebstormProjects/Pro_xy/.meteor/local/cordova-build/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"exo\");\nTemplate[\"exo\"] = new Template(\"Template.exo\", (function() {\n  var view = this;\n  return Spacebars.include(view.lookupTemplate(\"terminal\"));\n}));\n","bodyAttrs":{}}
